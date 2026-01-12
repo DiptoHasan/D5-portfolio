@@ -39,8 +39,8 @@ header {
 }
 
 nav{
-    width: 71%;
-    max: width 1140px; ;
+    width: 76%;
+    max: width 1020px; ;
     /* border: 1px solid black; */
     margin: 0 auto;
     display: flex;
@@ -90,4 +90,51 @@ nav a{
 .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+
+#about{
+   padding-top: 130px;
+}
+#about .about-container{
+    width:76%;
+    max-width: 1020px;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 157px;
+}
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.secttion-heading p{
+   font-size: 18px;
+   margin-bottom:30px;
+   line-height: 30px;
+    color: #757575;
+}
+
+#about .about-container .about-info {
+display: flex;
+justify-content: space-around;
+}
+
+.about-info .info-card p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+    color: #757575;
+    gap: 50px;
+}
+
+.about-info .info-card h4 {
+    font-size: 20px;
+    
 }
