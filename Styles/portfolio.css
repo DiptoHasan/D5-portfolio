@@ -26,11 +26,15 @@ font_weight: 900;
     font-weight: bold;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
  }
 /* main style */
 
 header {
     background-color: #fff8f3;
+    background: url("../hero-dev-portfolio-resources/images/developer.png"), url("../hero-dev-portfolio-resources/images/header_bg.png"),#fff8f3;
+    background-position:top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 51px;
 }
 
@@ -54,3 +58,36 @@ nav a{
     color: #474747;
 }
 
+#banner{
+    /* border: 1px solid black; */
+    margin: 47px 38px 0 230px;
+    display: flex;
+}
+.banner-content{
+    max-width: 1020px;
+}
+
+.banner-content h2 {
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+    margin: bottom 5px;
+}
+
+.banner-content h1 {
+    color:#181818;
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+}
